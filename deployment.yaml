@@ -1,0 +1,25 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gradle-app-deployment
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: gradle-app
+  template:
+    metadata:
+      labels:
+        app: gradle-app
+    spec:
+      containers:
+      - name: my-gradle-app
+        image: ob4d4/my-gradle-app:v2 
+        ports:
+        - containerPort: 8080
+      resources:
+        requests:
+          cpu: "100m"
+        limits:
+          cpu: "250m"
