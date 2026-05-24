@@ -1,0 +1,31 @@
+Curs: Aplicații Cloud
+Lucrări de laborator
+Lucrarea de laborator Nr.1
+Obiectiv: Crearea mediului pentru dezvoltarea aplicații cloud native
+Descriere:
+
+Se va descarcă si instala mediul Rancher Desktop care va permite crearea containerilor si componentelor Kubernetes.
+Link: https://docs.rancherdesktop.io/getting-started/installation/
+Se va familiariza cu funcționalitățile disponibile in Rancher Desktop utilizând tutorial si ghiduri disponibile la: https://docs.rancherdesktop.io/
+Se va identifica sau elabora o aplicație care va fi utilizata pe parcursul lucrărilor de laborator.
+
+Lucrarea de laborator Nr.2
+Obiectiv: Familiarizarea cu procesul de creare a containerilor
+Descriere:
+
+Utilizând Rancher Desktop, aplicația creata/identificata in lucrarea de laborator N.1 va fi containerizata.
+Containerul creat va fi lansat si va fi demonstrat ca aplicația poate fi accesata pentru a verifica funcționalitatea.
+
+Lucrarea de laborator Nr.3
+Obiectiv: Familiarizarea cu procesul de creare a obiectelor Kubernetes
+Descriere:
+
+Utilizând Rancher Desktop, pentru aplicația creata/identificata in lucrarea de laborator N.1 vor fi create obiectele Kubernetes necesare.
+Aplicația va fi lansata pe platforma Kubernetes si accesata pentru a verifica funcționalitatea.
+
+Lucrarea de laborator Nr.4
+Obiectiv: Familiarizarea cu procesul de creare a flow-urilor CI/CD
+Descriere:
+
+Vor fi studiate serviciile Google Cloud care sunt puse la dispoziție de Google pentru crearea flow CI/CD
+Va fi implementat flow de CI/CD pe platforma Google Cloud pentru a face un deployment a aplicației create/identificate in lucrarea de laborator N.1, pe Cloud Run si/sau GKE.
